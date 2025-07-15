@@ -1,8 +1,23 @@
-.venv/
+# Python
+*.pyc
 __pycache__/
-*.csv
-*.DS_Store
+*.pyo
+*.pyd
+.Python
 .venv/
-__pycache__/
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# VSCode
+.vscode/
+
+# 数据文件
 *.csv
-*.DS_Store
